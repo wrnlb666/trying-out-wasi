@@ -1,5 +1,5 @@
 # trying-out-wasi
-try the potential of wasip1
+trying out the potential of wasip1
 
 # My environment
 - arch:         amd64
@@ -11,3 +11,9 @@ try the potential of wasip1
 # what you will need besides stuffs above
 - wasi-compiler-rt
 - wasi-libc
+
+# TODO
+- complex types
+    - protobuf
+    - WIT (wasm interface types) - not available with wasi preview 1
+- memory management
