@@ -30,5 +30,5 @@ run:
 	@ wasmtime --preload foo=foo.wasm --preload bar=bar.wasm gomain.wasm
 
 clean: 
-	- rm *.wasm *.json
+	- rm *.wasm compile_commands.json
 
