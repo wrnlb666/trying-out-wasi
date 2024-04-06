@@ -1,0 +1,8 @@
+# ignore wasm module
+*.wasm 
+
+# ignore clang config file
+compile_commands.json
+
+# ignore cache
+.cache
